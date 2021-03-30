@@ -33,22 +33,22 @@ p {
     o efeito Parallax*/
 }
 .caixa1 {
-    background-image: url(/ProjetoTraveller/imagens/img1.jpg);
+    background-image: url(/ProjetoTraveller/imagens/img2.jpg);
 }
 .caixa2 {
-    background-image: url(/ProjetoTraveller/imagens/img2.jpg);
+    background-image: url(/ProjetoTraveller/imagens/saci.jpeg);
 }
 .caixa3 {
-    background-image: url(/ProjetoTraveller/imagens/img3.jpg);
+    background-image: url(/ProjetoTraveller/imagens/iara.jpeg);
 }
 .caixa4 {
-    background-image: url(/ProjetoTraveller/imagens/img1.jpg);
+    background-image: url(/ProjetoTraveller/imagens/corpo_seco.jpeg);
 }
 .caixa5 {
-    background-image: url(/ProjetoTraveller/imagens/img2.jpg);
+    background-image: url(/ProjetoTraveller/imagens/corpo_seco.jpeg);
 }
 .caixa6 {
-    background-image: url(/ProjetoTraveller/imagens/img3.jpg);
+    background-image: url(/ProjetoTraveller/imagens/img1.jpg);
 }
 .conteudo-titulo {
     position: absolute;
