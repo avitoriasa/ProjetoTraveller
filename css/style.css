@@ -1,67 +1,99 @@
 /* Configurações do body */
-body, html {
+
+body,
+html {
     margin: 0;
     font: 16px "Lato", sans-serif;
     color: #777;
     height: 100%;
 }
+
 .conteudo {
-    color: #777;
-    background-color: white;
+    color: #777;            
+    background-color: transparent;
+    border-radius: 20px;
     text-align: justify;
-    padding: 50px 80px;
+    
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
+
 h3 {
     text-transform: uppercase;
     color: #111;
     text-align: center;
 }
+
 p {
     margin-bottom: 20px;
 }
+
+
 /* Efeito Parallax */
-.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8 {
-    position: relative; /* para usar a position absolute dentro das caixas, é
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4,
+.caixa5,
+.caixa6,
+.caixa7,
+.caixa8 {
+    position: relative;
+    /* para usar a position absolute dentro das caixas, é
     necessário que elas estejam em position relative */
     height: 100%;
     opacity: 0.7;
     background-repeat: no-repeat;
-    background-size: cover; /* ocupa 100% da área da horizontal e se ajusta
+    background-size: cover;
+    /* ocupa 100% da área da horizontal e se ajusta
     ao tamanho da tela */
     background-position: center;
-    background-attachment: fixed; /* faz com que a imagem fique fixa causando
+    background-attachment: fixed;
+    /* faz com que a imagem fique fixa causando
     o efeito Parallax*/
 }
+
 .caixa1 {
-    background-image: url(/ProjetoTraveller/imagens/img2.jpg);
+    background-image: url(/imagens/img2.jpg);
 }
+
 .caixa2 {
-    background-image: url(/ProjetoTraveller/imagens/saci.jpeg);
+    background-image: url(/imagens/saci.jpeg);
 }
+
 .caixa3 {
-    background-image: url(/ProjetoTraveller/imagens/iara.jpeg);
+    background-image: url(/imagens/iara.jpeg);
 }
+
 .caixa4 {
-    background-image: url(/ProjetoTraveller/imagens/corpo_seco.jpeg);
+    background-image: url(/imagens/corpo_seco.jpeg);
 }
+
 .caixa5 {
-    background-image: url(/ProjetoTraveller/imagens/curupira.jpeg);
+    background-image: url(/imagens/curupira.jpeg);
 }
+
 .caixa6 {
-    background-image: url(/ProjetoTraveller/imagens/boto.jpeg);
+    background-image: url(/imagens/boto.jpeg);
 }
+
 .caixa7 {
-    background-image: url(/ProjetoTraveller/imagens/cuca.jpeg);
+    background-image: url(/imagens/cuca.jpeg);
 }
+
 .caixa8 {
-    background-image: url(/ProjetoTraveller/imagens/tutu_maramba.jpeg);
+    background-image: url(/imagens/tutu_maramba.jpeg);
 }
+
 .conteudo-titulo {
     position: absolute;
     top: 45%;
     width: 100%;
     text-align: center;
 }
+
 .conteudo-titulo span.titulo {
     color: white;
     background-color: #111;
@@ -70,10 +102,35 @@ p {
     letter-spacing: 5px;
     text-transform: uppercase;
 }
+
 a {
     text-decoration: none;
     color: rgb(78, 75, 75);
 }
+
 a:hover {
     color: #ccc;
+}
+
+.imagens {
+    flex-direction: row;
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 11vw;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(3.0);
+    border: unset;
 }
