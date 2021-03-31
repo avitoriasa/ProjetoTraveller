@@ -45,10 +45,13 @@ p {
     background-image: url(/ProjetoTraveller/imagens/corpo_seco.jpeg);
 }
 .caixa5 {
-    background-image: url(/ProjetoTraveller/imagens/corpo_seco.jpeg);
+    background-image: url(/ProjetoTraveller/imagens/curupira.jpeg);
 }
 .caixa6 {
-    background-image: url(/ProjetoTraveller/imagens/img1.jpg);
+    background-image: url(/ProjetoTraveller/imagens/boto.jpeg);
+}
+.caixa7 {
+    background-image: url(/ProjetoTraveller/imagens/cuca.jpeg);
 }
 .conteudo-titulo {
     position: absolute;
